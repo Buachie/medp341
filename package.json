@@ -1,0 +1,14 @@
+{
+  "name": "medp341",
+  "version": "1.0.0",
+  "description": "Hunter College Media Production 34100 Web Projects",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "author": "Aaron Buachie",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
