@@ -7,8 +7,8 @@ var shuffleButton = document.getElementById("shuffle");
 
 function createDeck() {
   //Set i/j to less than the number of cards you want to print. If you want to print the whold deck, set i < suits.length and j < values.length
-  for (let i = 0; i < suits.length; i++) {
-    for (let j = 0; j < values.length; j++) {
+  for (let i = 0; i < 1; i++) {
+    for (let j = 0; j < 1; j++) {
       var card = {
         Value: values[Math.floor(Math.random() * values.length)],
         Suit: suits[Math.floor(Math.random() * suits.length)]
