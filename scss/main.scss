@@ -1,3 +1,6 @@
+@import "variables";
+@import "projects";
+
 * {
   box-sizing: border-box;
 }
@@ -11,7 +14,30 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #ff512f, #f09819);
+  background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
+}
+
+.main-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: $title-font;
+}
+nav {
+  width: 100%;
+  font-family: $text-font;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+      a {
+        padding: 1em;
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 .main-header {
