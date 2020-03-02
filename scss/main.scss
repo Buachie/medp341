@@ -14,7 +14,10 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
+  background: linear-gradient(to bottom right, #d3cce3, #e9e4f0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .main-container {
