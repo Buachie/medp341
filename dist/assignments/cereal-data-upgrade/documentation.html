@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Packet Switching</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="../../../index.html">Home</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="hero-container">
+        <img
+          src="https://d6prv7be4nrvy.cloudfront.net/wp-content/uploads/cereallll.jpg"
+          alt=""
+        />
+      </div>
+      <div class="info-container">
+        <p>
+          For this week's assignment I added on to the cereal dataset that I
+          created last class. This time, with the help of jquery I was able to
+          get the data to display on the DOM. In addition to displaying the
+          data, I decided to display an image with text saying whether the
+          cereal was "parent approved" or not. I did this by creating a button
+          that would display the information in a modal that pops up over the
+          page. Clicking the backdrop hides the modal and allows you to check
+          another cereal.
+        </p>
+        <p>
+          One of the initial issues I had with this project was dealing with the
+          scope of the functions. The function that accesses the data worked but
+          when I created a separate function to display that info in the DOM, i
+          oculd not access the results of the first function. To fix this, I
+          ended up inserting the functions that display the data and the modal
+          into the first function that pulls the data from the cereal object.
+          Another issue that I was not able to fix was resetting the cereals.
+          For example, if you type in one cereal and get a result, if you decide
+          to look up another one, the list will not refresh and will continually
+          stack with one another.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
